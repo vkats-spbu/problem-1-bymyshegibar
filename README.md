@@ -4,10 +4,10 @@
 ### Email
 st128274@student.spbu.ru
 ### Сборка
-'''bash
+```bash
 make -f Makefile-1
-'''
+```
 ### Запуск
-'''bash
+```bash
 ./total
-'''
+```
