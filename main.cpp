@@ -2,11 +2,19 @@
    problem №1
 */
 
+#include "functions.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
+int main(int arg, char *argv[])
 {
-	cout<<"Hello, World"<<endl;
+	cout << "Чтобы закончить выполнение программы, введите 'q' / 'quit' / 'stop' + Enter" << endl;
+	string WordToSay = "world";
+	while ((WordToSay != "q") && (WordToSay != "quit") && (WordToSay != "stop"))
+	{
+		SayHello(WordToSay);
+		cin >> WordToSay;
+	}
 }
