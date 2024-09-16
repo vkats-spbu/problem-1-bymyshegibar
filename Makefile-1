@@ -1,2 +1,10 @@
-all:
-	g++ main.cpp -o main
+all: total
+
+total: main.o
+	g++ main.o -o total
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+clean:
+	rm -rf *.o total

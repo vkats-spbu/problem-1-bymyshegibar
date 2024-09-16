@@ -4,5 +4,6 @@
 ## Email
 st128274@student.spbu.ru
 ## Сборка
-GNU make
+make -f Makefile-1
 ## Запуск
+./total
