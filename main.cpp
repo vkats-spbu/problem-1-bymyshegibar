@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 
+//Лучше воздержаться от использования using namespace - так Вы гарантируете, чтообращаетесь к нужной сущности
 using namespace std;
 
 int main(int arg, char *argv[])

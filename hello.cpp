@@ -8,7 +8,8 @@
 
 using namespace std;
 
-void SayHello(string WordToSay)
+
+void SayHello(const string &WordToSay)
 {
 	cout << "Hello, " << WordToSay << "!" << endl;
 }
